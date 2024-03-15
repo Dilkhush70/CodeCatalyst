@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Chicken Fry",
+        "price": 200,
+        "image": "pictures/chicken fry.avif"
+    },
+    {
+        "id": 2,
+        "name":"Chicken Tandori",
+        "price": 250,
+        "image": "pictures/chicken tandori.webp"
+    },
+    {
+        "id": 3,
+        "name":" Kadhai Biryani",
+        "price": 290,
+        "image": "pictures/kadhaibiryani.webp"
+    },
+    {
+        "id": 4,
+        "name":"Pizza",
+        "price": 200,
+        "image": "pictures/paasta.avif"
+    },
+    {
+        "id": 5,
+        "name":" Paneer Biryani",
+        "price": 300,
+        "image": "pictures/paneerbiryani.webp"
+    },
+    {
+        "id": 6,
+        "name":"Pan Cakes ",
+        "price": 200,
+        "image": "pictures/pancakes.avif"
+    },
+    {
+        "id": 7,
+        "name":" Pizza",
+        "price": 200,
+        "image": "pictures/pizza.avif"
+    },
+    {
+        "id": 8,
+        "name":" Chicken Momos",
+        "price": 200,
+        "image": "pictures/chicken momos.webp"
+    }
+
+]
