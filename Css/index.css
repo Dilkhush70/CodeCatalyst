@@ -1,0 +1,142 @@
+
+html,body{
+    width:100%;
+    background-color: bisque;
+
+}
+.navbar{
+    display:flex;
+    background-color: rgb(234, 209, 69);
+    overflow-x: hidden;
+  }
+  
+  .navbar > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.navbar > div:nth-child(2) {
+    margin-left: 190px;
+}
+.navbar .navbtn{
+    background-color: #f1f1f1;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    font-size:30px;
+    display: none;
+}
+.navbar .navbtn hr{
+    border: 5px solid green;
+    transition-duration: 1000ms;
+}
+.line1{
+    display: block;
+}
+.navlink {
+    display: flex;
+    height: 40px;
+}
+.navlink div {
+    margin: auto 20px;
+    padding:0 10px;
+    align-items: center;
+}
+.navlink div:hover {
+background-color: white;
+border: 1px solid rgb(5, 241, 238);
+border-bottom:2px solid red ;
+
+border-radius: 0 0 10px 10px;
+}
+
+.item-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+
+}
+.item-container div{
+    margin:5px;
+    padding: 20px;
+}
+.item-container img{
+    width: 100%;
+    max-height: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item-container p{
+    color: black;
+    margin-left: 25px;
+}
+.item-container b,.item-container del{
+    color: red;
+}
+.item-container  .current-price{
+    color: green;
+}
+.item-container .item-wishlist{
+    text-align: center;
+    background-color: burlywood;
+    cursor: pointer;
+    float: left;
+    width: 40%;
+    margin: 4px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.item-container .item-add{
+    text-align: center;
+    background-color: burlywood;
+    cursor: pointer;
+    float: right;
+    width:40%;
+    padding: 10px 0;
+    margin: 4px;
+    border-radius: 10px;
+}
+.item-container .item-wishlist:hover, .item-container .item-add:hover {
+background: white;
+color: blue;
+font-weight:bolder;
+}
+@media only screen and (max-width: 800px) {
+    .navbar .navbtn{
+        display: block;
+    }
+    .navlink {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        right:100%;
+        top:0;
+        background: rgb(131, 144, 129);
+        display: block;
+        z-index: 10;
+    }
+    .item-container{
+        width: 100%;
+        display: block;
+    }
+    .item-container .item-wishlist{
+        text-align: center;
+        background-color: burlywood;        cursor: pointer;
+        float: left;
+        width: 30%;
+        margin-left: 40px;
+        padding: 10px 0;
+    }
+    .item-container .item-add{
+        text-align: center;
+        background-color: burlywood;        width: auto;
+        cursor: pointer;
+        float: right;
+        width: 30%;
+        margin-right: 40px;
+        padding: 10px 0;
+    }
+    
+  }
